@@ -26,12 +26,12 @@ class Contact extends React.Component {
                                         image={linkedin}
                                         title='Connect with me on linked-in'
                                         description='  '
-                                        link='mailto:benderenzi@protonmail.com'/>
+                                        link='https://www.linkedin.com/in/benjamin-derenzi-a9b154195/'/>
                         </Col>
                         <Col sm={{span:6, offset:3}} lg={{span:2, offset:0}}>
                             <Contact_Card 
                                         image={git}
-                                        title='BenDeRenzi@protonmail.com'
+                                        title='BenDeRenzi121'
                                         description='Check out my projects on github'
                                         link='https://github.com/benderenzi121'/>
                         </Col>

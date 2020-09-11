@@ -14,9 +14,12 @@
     }
     &__text-content{
         border-radius:4%;
+        @mixin atSmall{
+            margin-top:2rem;
+        }
         @mixin atMedium{
         
-        top: 50%;
+        top: 25%;
        
         left:0;
         width:98.3%;
