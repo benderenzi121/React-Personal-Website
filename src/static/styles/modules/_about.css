@@ -1,0 +1,27 @@
+.about{
+    background-color: $darkblue;
+    
+
+    &__image{
+        
+        border-radius:60px; width: 350px; height:250px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 2rem;
+
+        @media atLarge{
+            margin:3rem rem;
+
+        }
+        
+    }
+    &__text{
+        text-align: center;
+        color:white;
+        font-size:1.77rem;
+        padding: 3rem 3rem;
+        
+    }
+}

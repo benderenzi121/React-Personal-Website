@@ -1,0 +1,20 @@
+
+body{
+    font-family: 'roboto', sans-serif;
+    color: #333;
+    background-color:$darkgreen;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+.one-col{
+    column-count: 1;
+    margin-bottom:1rem;
+}
+
+.light-text{
+    color:$lightgreen;
+}

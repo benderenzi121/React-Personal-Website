@@ -1,0 +1,53 @@
+.greeting {
+    
+    &__outline {
+       
+        text-align: center;
+        padding: .5rem 3rem;
+        
+        @mixin atMedium{
+            
+            top: 50%;
+            
+            
+        }
+    }
+    &__text-content{
+        border-radius:4%;
+        @mixin atMedium{
+        
+        top: 50%;
+       
+        left:0;
+        width:98.3%;
+        text-align: center;
+        background-color:$darkblue;
+        color:white;
+        
+        }
+        @mixin atLarge{
+            position: absolute;
+            margin-left:1rem;
+            opacity: 95%;
+            padding:.2rem .2rem;
+            
+        }
+    }
+    &__introduction {
+        font-weight:300;
+        font-size: 4rem;
+        margin:0px;
+        background:$darkblue;
+        padding-top:.85rem;
+    }
+   
+    &__statement{
+        font-weight:300;
+        font-size: 2.2rem;
+        margin:0;
+        background: $darkblue;
+        padding-bottom:1rem;
+        
+        
+    }
+}
