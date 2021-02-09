@@ -8,8 +8,8 @@ class Banner extends React.Component {
         return ( 
             <div>
                 <Container fluid>
-                    <div class='one-col'>
-                        <img class='banner__image' src ={splash}></img>
+                    <div className='one-col'>
+                        <img className='banner__image' src ={splash}></img>
                         <Greeting/>
                     </div>
                 </Container>

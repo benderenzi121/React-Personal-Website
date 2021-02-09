@@ -7,10 +7,10 @@ class Greeting extends React.Component {
     render() {
       return  <div >
                 
-                  <div class='greeting__text-content'>
-                    <div class='greeting__outline'>
-                    <h2 class="greeting__introduction"> Benjamin DeRenzi</h2>
-                    <h4 class ='greeting__statement'>Hi, I am a web developer and I created this website so that you guys can see my work and find where you can contact me!</h4>
+                  <div className='greeting__text-content'>
+                    <div className='greeting__outline'>
+                    <h2 className="greeting__introduction"> Benjamin DeRenzi</h2>
+                    <h4 className ='greeting__statement'>Full Stack Web Developer</h4>
                   </div>
                 
               </div>

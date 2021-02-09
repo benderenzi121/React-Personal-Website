@@ -13,7 +13,7 @@
         }
     }
     &__text-content{
-        border-radius:4%;
+        border-radius:8%;
         @mixin atSmall{
             margin-top:2rem;
         }

@@ -2,7 +2,7 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
-
+import {FaArrowRight} from 'react-icons/fa';
 class Contact_card extends React.Component {
     
     render() { 
@@ -14,7 +14,7 @@ class Contact_card extends React.Component {
                        
                         <Card.Title className='contact-card__title' >{this.props.title} </Card.Title>
                         <Card.Text className='contact-card__text'>{this.props.description} </Card.Text>
-                        <Button variant='primary' block className='contact-card__button' href={this.props.link}>Download</Button>
+                        <Button variant='primary' block className='contact-card__button' href={this.props.link}><FaArrowRight /></Button>
                         
                     </Card.Body>
                 </Card>

@@ -5,6 +5,7 @@ import blog_proj_img from '../static/images/blog_proj_img.jpeg';
 import shootout_proj_img from '../static/images/shootout_proj_img.jpeg';
 import login_proj_img from '../static/images/login_proj_img.png';
 import social_proj_img from '../static/images/social_proj_img.png';
+import Capture from '../static/images/Capture.PNG';
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -15,9 +16,9 @@ class Projects extends React.Component {
     render() { 
         return ( 
             <div>
-                <div class ='projects page-section'>
+                <div className ='projects page-section'>
                     <Container fluid>
-                    <h1 class = 'display-1 featured strong text-center room-above room-below projects__intro'>Featured Projects</h1>
+                    <h1 className = 'display-1 featured strong text-center room-above room-below projects__intro'>Featured Projects</h1>
                     <Row>
                     <Col lg={4} sm={12}>
                         <Project_card 
@@ -47,15 +48,15 @@ class Projects extends React.Component {
                         <Project_card 
                             image={login_proj_img}
                             title='User Login System' 
-                            description='A fully functional user login system using Django'
+                            description='A user login built system using Django'
                             link='https://github.com/benderenzi121/django-user-login'/>
                     </Col>
                     <Col lg={6} sm={12}>
                         <Project_card 
-                            image={social_proj_img}
-                            title='Social Media Site' 
-                            description='A simple social media website built using Django. Users can create, join, and post to groups.'
-                            link='https://github.com/benderenzi121/SimpleSocialSite'/>
+                            image={Capture}
+                            title='Amazing Games Under Construction Web-Page' 
+                            description='A simple webpage that links users to other platforms to shop at while the eccomerce app is under construction.'
+                            link='https://amg-under-construction.herokuapp.com'/>
                     </Col>
                     </Row>
                 </Container>

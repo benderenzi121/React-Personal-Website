@@ -11,3 +11,4 @@
 @import'modules/_wrapper.css';
 @import'modules/_page-section.css';
 @import 'modules/_project-card.css';
+@import '../../../node_modules/@fortawesome/fontawesome-free/css/all.css';

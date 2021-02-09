@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --mode development --Open --hot",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "postinstall": "webpack -p"
   },
   "author": "",
   "license": "ISC",
@@ -31,11 +32,15 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "@react-pdf/renderer": "^1.6.11",
     "bootstrap": "^4.5.2",
     "file-loader": "^6.1.0",
     "html-loader": "^1.3.0",
     "react-bootstrap": "^1.3.0",
+    "react-icons": "^4.2.0",
     "react-pdf": "^5.0.0",
     "react-router-dom": "^5.2.0"
   }

@@ -17,5 +17,9 @@
     &__button{
         background-color:$lightgreen;
     }
+    &__image{
+        height:35vh;
+        
+    }
  
 }
